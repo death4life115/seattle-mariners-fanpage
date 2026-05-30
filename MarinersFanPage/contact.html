@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Jose Camacho -->
+<html lang="en">
+<head>
+	<title>Contact Us - Location | Seattle Mariners Fan Page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Whether you want to come and catch a game, come to take a personal ballpark tour, or have any general questions please feel free to contact us!">
+	<link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+	<!-- Skip to Content Link -->
+	<a class="skip" href="#content">Skip to Content</a>
+
+	<div id="container">
+	
+		<!-- Mobile Nav -->
+			<nav class="mobile-nav">
+				<div id="menu-links">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="ballpark.html">Ballpark Tour</a>
+					<a href="players.html">Players</a>
+					<a href="contact.html">Contact Us</a>
+				</div>
+				<a class="menu-icon" onclick="hamburger()">
+					<div>&#9776;</div>
+				</a>
+			</nav>
+
+		<!-- Use the header area for the website name or logo -->
+		<header id="ms-logo">
+			<a href="index.html"><img src="images/Seattle-Mariners-Logo.png" alt="Seattle Mariners Logo"></a>
+		</header>
+			
+		<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="ballpark.html">Ballpark Tour</a></li>
+				<li><a href="players.html">Players</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main id="contact">
+			
+		<div id="contact">
+			
+			<h2>Want to come for a tour or a watch a game? Contact us today!</h2>
+			<h4 class="mobile tel-link"><a href="tel:2063464000">206-346-4000</a></h4>
+			<h4 class="tablet-desktop tel-num">206-346-4000</h4>
+			<h4>Email us: <a href="mailto:seattlemsfans@mlb.net" class="contact-email-link">seattlemsfans@mlb.net</a></h4>
+			<h4>Visit us at: 1250 1st Ave S, Seattle, WA 98134</h4>
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.782523743322!2d-122.33515812404585!3d47.591471971188426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a9f505dc4db%3A0xc6f829b3a6a6fd95!2sT-Mobile%20Park!5e0!3m2!1sen!2sus!4v1778798225796!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+			
+		</div>
+		
+		<div id="form">
+		
+			<h2>Sign up today to stay up tp date on Mariners News and Tour info!</h2>
+			
+			<form><!-- Start Form -->
+			
+				<fieldset>
+					<legend>Fan Information</legend>
+					<label for="fName">First Name:</label>
+					<input type="text" id="fName" name="fName" required>
+
+					<label for="1Name">Last Name:</label>
+					<input type="text" name="1Name" id="1Name" required>
+					
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" required>
+					
+					<label for="phone">Phone:</label>
+					<input type="tel" id="phone" name="phone" required>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Additional Information</legend>
+					<p>I would like more information about:</p>
+					
+					<label for="games"><input type="checkbox" name="interest" id="games" value="Games">Games</label>
+					
+					<label for="stour"><input type="checkbox" name="interest" id="stour" value="Stadium Tours">Stadium Tours</label>
+					
+					<label for="spev"><input type="checkbox" name="interest" id="spev" value="Special Events">Special Events</label>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Have fun at a game!</legend>
+					<label for="fun">What is your favorite thing to do at a Mariners game?</label>
+					<select name="fun" id="fun">
+						<option value="ec">Enjoy Concession</option>
+						<option value="friend">Go with Friends</option>
+						<option value="merch">Buy Merchandise</option>
+						<option value="gad">Give Away Days</option>
+						<option value="root">Root for your Seattle Mariners</option>
+					</select>
+					
+					<label for="questions">Questions?</label>
+					<textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+				</fieldset>
+				
+				<input type="submit" id="submit" value="Submit" class="btn">
+				
+			</form>
+			
+		</div>
+			
+		</main>
+			
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			
+			<div class="copyright">
+				<p>&copy; Copyright 2026. All Rights Reserved.</p>
+				<p><a href="mailto:seattlemsfans@mlb.net">seattlemsfans@mlb.net</a></p>
+			</div>
+				
+			<div class="social">
+				<a href="https://www.facebook.com/Mariners" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+				<a href="https://www.twitter.com/Mariners" target="_blank"><img src="images/twitter-logo.png" alt="black abd white Twitter logo"></a>
+			</div>
+		</footer>
+	
+	
+	</div>
+	
+	<script src="scripts/scripts.js"></script>
+	
+</body>
+</html>
